@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact - Student Portfolio</title>
+
+    <style>
+        body { font-family: Arial; margin: 0; padding: 0; }
+        header { background: linear-gradient(90deg, #6a11cb, #2575fc); padding: 10px; color: white; }
+        nav a { color: white; margin: 0 10px; text-decoration: none; }
+        nav a:hover {
+        text-decoration-color: #f10909;
+        border-radius: 4px;}
+        .container { width: 90%; margin: auto; padding: 20px; }
+
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            padding: 10px 15px;
+            background: #2b6cb0;
+            border: none;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h2>Student Portfolio</h2>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<div class="container">
+    <h1>Contact Me</h1>
+
+    <form>
+        <label>Name</label>
+        <input type="text" required>
+
+        <label>Email</label>
+        <input type="email" required>
+
+        <label>Subject</label>
+        <input type="text" required>
+
+        <label>Message</label>
+        <textarea required></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+
+</div>
+
+</body>
+</html>
